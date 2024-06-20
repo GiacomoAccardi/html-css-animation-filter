@@ -86,11 +86,19 @@
 }
 
 @keyframes ex-10-icon {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/*ESERCIZIO 11*/
+
+.ex-11-icon:hover{
+    animation: ex-11-icon 1s  linear;
+}
+
+@keyframes ex-11-icon {
+    0% {transform:rotate(0deg);}
+    85% {transform:rotate(270deg);}
+    100% {transform:rotate(0deg);}
 }
 
