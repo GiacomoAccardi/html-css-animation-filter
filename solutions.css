@@ -78,3 +78,19 @@
     0% {filter: grayscale(0); filter: blur(0); border-radius: 0; scale: 1;}
     100% {filter: grayscale(1); filter: blur(2px);border-radius: 20%; scale: 1.4;}  
 }
+
+/*ESERCIZIO 10*/
+
+.ex-10-icon{
+    animation: ex-10-icon 1s infinite linear;
+}
+
+@keyframes ex-10-icon {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
