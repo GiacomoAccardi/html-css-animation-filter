@@ -30,3 +30,13 @@
     50% {opacity: 50%;} 
     100% {opacity: 0%;}  
 }
+
+/*ESERCIZIO 5*/
+
+.ex-5-square:hover {
+    scale: 1.5;
+}
+
+.ex-5-square:active {
+    scale: 0.5;
+}
