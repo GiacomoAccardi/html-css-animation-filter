@@ -18,3 +18,15 @@
     border-radius: 100%;
     transition: 2s;
 }
+
+/*ESERCIZIO 4*/
+
+.ex-4-square {
+    animation:  ex-4-square 5s ;
+}
+
+@keyframes ex-4-square {
+    0% {opacity: 100%;}
+    50% {opacity: 50%;} 
+    100% {opacity: 0%;}  
+}
