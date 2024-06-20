@@ -11,3 +11,10 @@
     width: 100%;
     transition: 2s;
 }
+
+/*ESERCIZIO 3*/
+
+.ex-3-square:hover {
+    border-radius: 100%;
+    transition: 2s;
+}
